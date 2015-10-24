@@ -38,6 +38,10 @@ Sketch.init = function() {
   $("#sketchCanvas").mouseup(function(event) {
     Sketch.isDrawing = false;
   });
+
+  $("#sketchCanvas").mouseout(function(event) {
+    Sketch.isDrawing = false;
+  });
 };
 
 Sketch.draw = function() {
