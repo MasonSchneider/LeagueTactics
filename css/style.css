@@ -1,0 +1,15 @@
+#mapLowRes {
+	max-height: 100vh;
+}
+
+#container {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#sketchCanvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
